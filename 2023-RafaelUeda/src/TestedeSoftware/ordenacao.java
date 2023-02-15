@@ -2,7 +2,7 @@ package TestedeSoftware;
 
 public class ordenacao {
     public static void main(String[] args) {
-        int n;
+        int n = 0;
         int arr[] = {2, 5, 1, 3, 4};
         int idx = -1;
         for (int i = 0; i < arr.length; i++) {
