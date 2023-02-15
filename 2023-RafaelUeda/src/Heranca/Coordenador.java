@@ -1,5 +1,5 @@
 package Heranca;
-
+//criação do coordenador
 public class Coordenador extends Funcionario {
     private String projetos;
     private String equipes;
