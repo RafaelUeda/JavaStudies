@@ -25,16 +25,14 @@ public class Somatoria {
         return valor + somatorioComRecursao(valor - 1);
     }
 
-    /*public int potenciaDeTres(int valor) {
-        //condição de parada
-        if (valor == 0) {
-            return 0;
+    public int potenciaDeDois(int valor) {
+        return valor * valor;
+    }
+
+    public int fib(int valor) {
+        if (valor < 2) {
+            return valor;
         }
-
-        //definir o retorno
-
-        //definir o retorno da chamada recursiva => return potenciaDeTres(valor);
-    }*/
-
-
+        return fib(valor - 1) + fib(valor - 2);
+    }
 }
