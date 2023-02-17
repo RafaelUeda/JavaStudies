@@ -29,6 +29,13 @@ public class Recursao {
         return valor * valor;
     }
 
+    public int potencia(int base, int expoente) {
+        if (expoente == 0) {
+            return 1;
+        }
+        return base*potencia(base, expoente - 1);
+    }
+
     public int fib(int valor) {
         if (valor < 2) {
             return valor;
