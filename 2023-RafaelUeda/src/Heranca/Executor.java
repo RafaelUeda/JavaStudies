@@ -31,8 +31,12 @@ public class Executor {
         System.out.println(funcionario.getBonificacao());*/
 
         ControleDeBonificacoes controleDeBonificacoes = new ControleDeBonificacoes();
+
         Gerente funcionario1 = new Gerente("Rafa", "0001", 5000.0);
         controleDeBonificacoes.registra(funcionario1);
+
+        Funcionario funcionario2 = new Funcionario("Tete", "0002", 5000.0);
+        controleDeBonificacoes.registra(funcionario2);
 
         System.out.println(controleDeBonificacoes.getTotalDeBonificacoes());
 
