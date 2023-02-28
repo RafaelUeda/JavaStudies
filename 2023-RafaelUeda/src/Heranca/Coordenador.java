@@ -4,7 +4,10 @@ public class Coordenador extends Funcionario {
     private String projetos;
     private String equipes;
 
-    public Coordenador() {
+    public Coordenador(String nome, String cpf, double salario, String projetos, String equipes) {
+        super(nome, cpf, salario);
+        this.projetos = projetos;
+        this.equipes = equipes;
     }
 
     public String getProjetos() {
