@@ -10,6 +10,15 @@ public class Coordenador extends Funcionario {
         this.equipes = equipes;
     }
 
+    public Coordenador(String nome, String cpf, double salario) {
+        super(nome, cpf, salario);
+    }
+
+    @Override
+    public double getValeAlimentacao() {
+        return super.getSalario()*0.05 + 400.00;
+    }
+
     public String getProjetos() {
         return projetos;
     }

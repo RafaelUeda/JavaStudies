@@ -1,12 +1,16 @@
 package Heranca;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private String cpf;
     private double salario;
 
     public double getBonificacao() {
-        return this.salario * 0.10;
+        return this.salario * 0.20;
+    }
+
+    public double getValeAlimentacao() {
+        return this.salario + 400.00;
     }
 
     public String getNome() {

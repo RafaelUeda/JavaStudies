@@ -8,5 +8,6 @@ public class Executor {
         //System.out.println(recursao.potenciaDeDois(2));
         System.out.println(recursao.potencia(5,4));
         System.out.println(recursao.fib(4));
+        System.out.println(recursao.fatorial(2));
     }
 }

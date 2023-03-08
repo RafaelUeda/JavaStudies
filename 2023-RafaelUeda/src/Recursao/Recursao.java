@@ -42,4 +42,13 @@ public class Recursao {
         }
         return fib(valor - 1) + fib(valor - 2);
     }
+
+
+    /* FATORIAL RECURSIVO */
+    public long fatorial(long n) {
+        if (n < 2) {
+            return 1;
+        }
+        return n * fatorial(n-1);
+    }
 }
